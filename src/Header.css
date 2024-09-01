@@ -3,7 +3,11 @@
     color: rgb(42, 199, 50);
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-;
+<<<<<<< HEAD
     position: relative;
+=======
+    position: relative; 
+>>>>>>> 549080460668c3ccae3156e220dfb8e7dc87fac4
     display: inline-block; 
   }
   
@@ -28,6 +32,7 @@
     font-weight: bold; 
   }
   
+<<<<<<< HEAD
   .head{
       position: fixed;
       top: 0;
@@ -38,3 +43,5 @@
       z-index: 1000; 
     }
   
+=======
+>>>>>>> 549080460668c3ccae3156e220dfb8e7dc87fac4
