@@ -3,8 +3,8 @@
     color: rgb(42, 199, 50);
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-;
-    position: relative; /* For positioning the pseudo-element */
-    display: inline-block; /* Ensure the pseudo-element aligns correctly */
+    position: relative;
+    display: inline-block; 
   }
   
   .linkstyle::after {
@@ -13,18 +13,28 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 2px; /* Thickness of the underline */
+    height: 2px; 
     width: 0;
-    background: #000; /* Color of the underline */
-    transition: width 0.3s ease; /* Smooth transition for the underline */
+    background: #000; 
+    transition: width 0.3s ease; 
   }
   
   .linkstyle:hover::after,
   li.active .linkstyle::after {
-    width: 100%; /* Underline width when hovered or active */
+    width: 100%; 
   }
   
   li.active .linkstyle {
-    font-weight: bold; /* Optional: Make the text bold for the active item */
+    font-weight: bold; 
   }
+  
+  .head{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px; 
+      background: #fff;
+      z-index: 1000; 
+    }
   

@@ -3,11 +3,11 @@ import React from 'react'
 const CyberSecurity = () => {
   const cardData = [
     {
-      title: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
-      image: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
-      link: "https://www.guvi.in/blog/difference-between-cybersecurity-and-ethical-hacking/",
-      author : "By Tushar Vinocha",
-      date: "Apr 16, 2024",
+      title: "What Is Hacking? Types of Hacking & More",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
+      link: "https://www.guvi.in/blog/what-is-hacking/",
+      author : "By Meghana D",
+      date: "Mar 25, 2024",
     },
     {
       title: "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
@@ -49,13 +49,13 @@ const CyberSecurity = () => {
 
   return(
     <>
-    <div className='d-flex justify-content-start flex-wrap' style={{paddingTop:'10px'}}>
+    <div className='d-flex justify-content-start flex-wrap' style={{paddingTop:'10px', marginTop: '60px'}}>
       {
         cardData.map((data,index)=>{
           return <div key ={index}className="card" style={{width: '20rem' , marginRight:'64px', marginLeft:"65px", marginTop:"10px", marginBottom:"10px"}}>
       <img className="card-img-top" src={data.image} alt="Card image cap" style={{height:"150px"}}/>
       <div className="card-body">
-        <h5 className="card-title" style={{height:"70px"}}>{data.title}</h5>
+        <h5 className="card-title" style={{height:"90px"}}>{data.title}</h5>
         <p className="card-text" style={{height:"10px"}}>{data.author}</p>
         <p className="card-text">{data.date}
         <a href={data.link} target="_blank" className="btn btn-success" style={{position:"absolute",right:10,bottom:20}}>Read</a>

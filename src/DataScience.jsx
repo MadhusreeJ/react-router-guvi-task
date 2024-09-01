@@ -17,17 +17,17 @@ const DataScience = () => {
         author : "By Lukesh S",
       },
       {
-        title: "Can A Commerce Student Do Data Science?",
-        image: "https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science-1536x804.png",
-        link: "https://www.guvi.in/blog/can-commerce-students-do-data-science/",
-        date: "Apr 16, 2024",
-        author : "By Saakshi Priyadarshini"
+        title: "Best Websites to Learn Data Science in 2024: Beginner to Expert",
+        image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-Best-Websites-to-Learn-Data-Science-1.webp",
+        link: "https://www.guvi.in/blog/best-websites-to-learn-data-science/",
+        date: "Dec 14, 2023",
+        author : "By Meghana D"
       },
       {
-        title: "Roles and Responsibilities of a Data Scientist",
-        image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4-1536x866.png",
-        link: "https://www.guvi.in/blog/roles-and-responsibilities-of-a-data-scientist/",
-        date: "Apr 16, 2024",
+        title: "Top Product-Based Companies for Data Science Freshers",
+        image: "https://www.guvi.in/blog/wp-content/uploads/2023/11/feature-image-product-based-companies-for-data-science-freshers.webp",
+        link: "https://www.guvi.in/blog/product-based-companies-for-data-science-freshers/",
+        date: "Nov 10, 2023",
         author : "By Jaishree Tomar"
       },
       {
@@ -49,13 +49,13 @@ const DataScience = () => {
   
     return(
       <>
-      <div className='d-flex justify-content-start flex-wrap' style={{paddingTop:'10px'}}>
+      <div className='d-flex justify-content-start flex-wrap' style={{paddingTop:'10px', marginTop: '60px'}}>
         {
           cardData.map((data,index)=>{
             return <div key ={index}className="card" style={{width: '20rem' , marginRight:'64px', marginLeft:"65px", marginTop:"10px", marginBottom:"10px"}}>
         <img className="card-img-top" src={data.image} alt="Card image cap" style={{height:"150px"}}/>
         <div className="card-body">
-          <h5 className="card-title" style={{height:"70px"}}>{data.title}</h5>
+          <h5 className="card-title" style={{height:"90px"}}>{data.title}</h5>
           <p className="card-text" style={{height:"10px"}}>{data.author}</p>
           <p className="card-text">{data.date}
           <a href={data.link} target="_blank" className="btn btn-success" style={{position:"absolute",right:10,bottom:20}}>Read</a>

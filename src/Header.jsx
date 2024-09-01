@@ -16,7 +16,7 @@ function Header() {
   return (
     <>
     <div className='row'>
-      <nav className=' container-fluid'>
+      <nav className=' head container-fluid'>
         <ul className='d-flex justify-content-evenly flex-wrap' style={{listStyleType:"none", marginTop:'20px',marginBottom:0}}>
         <img src="https://www.guvi.in/blog/wp-content/themes/guvi-blog/assets/images/guvi.svg" style={{position:"absolute",left:0,top:5}}/>  
       <li className={activeIndex === 0 ? 'active' : ''} onClick={() => handleClick(0)}>

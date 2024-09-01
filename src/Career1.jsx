@@ -3,10 +3,10 @@ import React from 'react'
 const Career1 = () => {
   const cardData = [
     {
-      title: "Is CS Degree required for a Full Stack Development Career?",
-      image: "https://www.guvi.in/blog/wp-content/uploads/2022/11/image-11-1536x933.png",
-      link: "https://www.guvi.in/blog/do-full-stack-development-jobs-rely-on-cs-degrees/",
-      author : "By GUVI Geek",
+      title: "Minimalism in UI/UX Design: Role and Importance for Design Career",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2024/01/Feature-image-Minimalism-in-UIUX-Design-Role-and-Importance-for-Design-Career.webp",
+      link: "https://www.guvi.in/blog/minimalism-in-ui-ux-design/",
+      author : "By Meghana D",
       date: "Aug 30, 2024",
     },
     {
@@ -17,45 +17,45 @@ const Career1 = () => {
       author : "By Meghana D",
     },
     {
-      title: "Data Science vs Software Engineering: Comparing Skill Sets and Careers",
-      image: "https://www.guvi.in/blog/wp-content/uploads/2024/08/Data-Science-vs-Software-Engineering.png",
-      link: "https://www.guvi.in/blog/data-science-vs-software-engineering/",
+      title: "How To Switch Career In UI/UX Design? Easy or Hard? [2024]",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/12/how_to_switch_to_a_career_in_ui_ux_design_.webp",
+      link: "https://www.guvi.in/blog/how-to-switch-career-in-ui-ux-design/",
       date: "Aug 30, 2024",
-      author : "By Lukesh S"
+      author : "By Srinithi Sankar"
     },
     {
-      title: "Zen Class Review: 1 Step To Ace Full Stack Development Career",
-      image: "https://www.guvi.in/blog/wp-content/uploads/2021/07/zen-full-stack-developer-600x493.png",
-      link: "https://www.guvi.in/blog/zen-class-review-pro-in-full-stack-development/",
-      date: "Aug 29, 2024",
-      author : "By Archana"
+      title: "Top 12 Career Opportunities for UI/UX Design",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/UX-1536x804.webp",
+      link: "https://www.guvi.in/blog/top-career-opportunities-for-ui-ux-design/",
+      date: "Aug 30, 2024",
+      author : "By Srinithi Sankar"
     },
     {
-      title: "Is Switching Careers From Non-Tech To Tech Challenging?",
-      image: "https://www.guvi.in/blog/wp-content/uploads/2021/10/Non-tech-to-Tech-How-difficult-is-that.png",
-      link: "https://www.guvi.in/blog/is-switching-careers-from-non-tech-to-tech-challenging/",
-      date: "Aug 28, 2024",
-      author : "By Archana"
+      title: "UI/UX Salary Guide 2024: Is it a High-Paying Career?",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/12/ui_ux_salary_guide_is_it_a_high_paying_career_feature_image.webp",
+      link: "https://www.guvi.in/blog/ui-ux-designer-salary-in-india/",
+      date: "Aug 30, 2024",
+      author : "By Srinithi Sankar"
     },
     {
-      title: "10 Best Software Engineering Careers in 2024",
-      image: "https://www.guvi.in/blog/wp-content/uploads/2023/03/Top-Software-Engineering-Careers.jpg",
-      link: "https://www.guvi.in/blog/best-software-engineering-career-options/",
+      title: "Career Opportunities in Web Development",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Career-Opportunities-in-Web-Development.webp",
+      link: "https://www.guvi.in/blog/career-opportunities-in-web-development/",
       date: "Aug 23, 2024",
-      author : "By Saakshi Priyadarshini"
+      author : " By Meghana D"
     }
   ];
 
 
   return(
     <>
-    <div className='d-flex justify-content-start flex-wrap' style={{paddingTop:'10px'}}>
+    <div className='d-flex justify-content-start flex-wrap' style={{paddingTop:'10px', marginTop: '60px'}}>
       {
         cardData.map((data,index)=>{
           return <div key ={index}className="card" style={{width: '20rem' , marginRight:'64px', marginLeft:"65px", marginTop:"10px", marginBottom:"10px"}}>
       <img className="card-img-top" src={data.image} alt="Card image cap" style={{height:"150px"}}/>
       <div className="card-body">
-        <h5 className="card-title" style={{height:"70px"}}>{data.title}</h5>
+        <h5 className="card-title" style={{height:"90px"}}>{data.title}</h5>
         <p className="card-text" style={{height:"10px"}}>{data.author}</p>
         <p className="card-text">{data.date}
         <a href={data.link} target="_blank" className="btn btn-success" style={{position:"absolute",right:10,bottom:20}}>Read</a>
